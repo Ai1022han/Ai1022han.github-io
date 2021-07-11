@@ -1,8 +1,9 @@
 
 
+
 @charset"UTF-8";
 
-.content{
+main{
   position: relative;
 }
 .purple{
@@ -77,16 +78,18 @@ li {
 /*--------------------------------
  header
 ---------------------------------*/
-.header {
-
+main>div {
   position: absolute;
-  left: 450px;
-  top: 100px;
-  display: flex;
+top: 50%;
+right: 0;
+bottom: 0;
+left: 0;
+margin: auto;
   align-items: center;
   justify-content: center;
   height: 65vh;
   text-align: center;
+  padding: 10px;
 }
 
 .header-inner {
@@ -99,7 +102,7 @@ li {
   line-height: 1.2;
   margin-bottom: 20px;
   color:#ae0abd ;
-  text-shadow: black 10px 10px 20px;
+  text-shadow: black 10px 10px 10px;
 }
 .header-subtitle {
   font-family: "Montserrat Subrayada", sans-serif;
